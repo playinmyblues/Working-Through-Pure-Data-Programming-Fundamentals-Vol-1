@@ -1,0 +1,6 @@
+#N canvas 513 195 450 300 12;
+#X obj 157 45 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#N canvas 179 212 450 300 open-manual 0;
+#X restore 161 94 pd open-manual;
+#X obj 159 161;
+#X obj 85 105 help;

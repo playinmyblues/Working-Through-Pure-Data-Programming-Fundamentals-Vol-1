@@ -1,0 +1,16 @@
+#N canvas 592 336 807 343 12;
+#X text 81 21 This is the first guided exercise in the book. It makes a (co)sine oscillator.;
+#X floatatom 100 92 5 0 0 0 - - - 0;
+#X msg 184 79 440;
+#X obj 106 137 osc~;
+#X obj 104 182 *~;
+#X msg 173 131 0;
+#X msg 222 129 0.8;
+#X obj 105 226 dac~;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 7 0;
+#X connect 4 0 7 1;
+#X connect 5 0 4 1;
+#X connect 6 0 4 1;
