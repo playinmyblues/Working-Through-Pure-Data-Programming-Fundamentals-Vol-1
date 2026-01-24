@@ -9,6 +9,6 @@ As of this moment, the associated folder for p36_adding_small_number_of_patches.
 
 The latest batch of patches I have worked through are p38... to p63...
 
-P63_message_boxes.pd also has a 2nd and 3rd version. I create them and name them this way to group them together for the purpose of keeping a concept in mind and exploring it. The 2nd and 3rd versions should be obvious but I do not number the first version with 1 so it appears out of order due to alphabetization and ordering with computer systems.
+P63_message_boxes.pd also has a 2nd and 3rd version. I create them and name them this way to group them together for the purpose of keeping a concept in mind and exploring it. The 2nd and 3rd versions should be obvious but I do not number the first version with 1.
 
 There are also some ideas and concepts I have explored and been exposed to in other explorations of Pd and I often include those in my patchs as I explore the book. Most of that type of material is explained in the comments.
