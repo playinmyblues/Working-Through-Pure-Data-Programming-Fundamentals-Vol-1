@@ -1,0 +1,4 @@
+List of Issues from working through Pure Data Programming Fundamentals: Patching, effects, sound synthesis, Vol 1
+
+1) patch: p64_exploring_bang_3.pd
+Create an envelope using the [line~] or [vline~] objects. This can be used with the [*~] object to control the output volume of a patch that feeds into the [dac~] object.
