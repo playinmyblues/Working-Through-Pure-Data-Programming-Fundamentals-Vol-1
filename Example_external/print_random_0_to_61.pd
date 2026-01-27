@@ -1,0 +1,10 @@
+#N canvas 66 93 450 300 12;
+#X obj 130 22 inlet;
+#X obj 131 58 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 132 94 metro 500;
+#X obj 137 128 random 62;
+#X obj 140 162 print random #'s:;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
