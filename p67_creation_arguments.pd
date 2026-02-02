@@ -1,0 +1,7 @@
+#N canvas 92 122 640 457 12;
+#X text 93 24 Creation arguments are things that are included with objects that determine their behaviour when they are intially created. Remember that creation happens everytime a patch is opened so the creation is not when you make the object and place it in the patch window. It happens when the patch is opened. Below is a simple example with no connections. You can create an [osc~] with no specific frequency to start with or you can add one such as [osc~ 440].;
+#X obj 103 170 osc~;
+#X obj 173 171 osc~ 440;
+#X obj 98 321 random 500;
+#X text 101 231 random is another object that does not need a creation arument. However \, I often use one so far. Check the patch called p64_radio_toggle_list.pd where there is a section at the bottom with [random] objects. One has no creation argument and the other one does.;
+#X text 107 375 There are lots of examples of objects where I use an inlet to change the arguments to change the behaviour of that object. Even the [random] objects above use that capability. The sequencer type patches I have created do that a lot.;
