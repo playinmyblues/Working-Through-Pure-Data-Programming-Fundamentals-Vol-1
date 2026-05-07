@@ -1,4 +1,7 @@
 # Working-Through-Pure-Data-Programming-Fundamentals-Vol-1
+
+EDIT:
+During the working through of this material, I was trying to create several constructs for which I later realized Pd already has objects. A good example of this the use of what is usually the [t b f] object. I created my own little construct, of which I was quite pleased at the time, to get around the problem of the order of operations used with hot and cold inlets on the [+] object. You can see how I got around the cold inlet addition problem by sending a bang to the hot inlet every time a number connected to the cold inlet was changed. This is seen in the patch named p73_volume_control_8_oscs_2_inits.pd and other similarly named patches. As I worked through more of the book, I realized my time was spent doing something already addressed in Pd. Hopefully, I do not make that mistake too often.
 This is a collection of Pure Data patches that have been created to help learn the material presented in the book "Pure Data Programming Fundamentals: Patching, effects, sound synthesis," by Maurizio Di Berardino. Comments should be found throughout the patches to help with understanding.
 
 The general format for patch names is to include an abbreviation for the word "page," "p," followed by the page number at the beginning of the patch name. The rest is often a description of the patch.
